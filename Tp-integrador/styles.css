@@ -209,14 +209,29 @@ label{
     
 }
 .boton{
-   margin-left:200px;
+   margin-left:120px;
    margin-top: 20px;
    width: 90px;
    height: 30px;
    background-color: rgb(223, 217, 217); 
-   border-radius: 5px;
+   border-radius: 5px; 
    
 }
+.boton_sesion{
+    margin-left: 10px;
+    background-color: rgb(223, 217, 217); 
+    border-radius: 5px; 
+    width: 90px;
+    height: 30px;
+}
+.boton_registro{
+    background-color: rgb(223, 217, 217); 
+    border-radius: 5px; 
+    width: 90px;
+    height: 30px;
+    margin-left: 110px;
+}
+
      
     
 

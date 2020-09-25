@@ -1,2 +1,0 @@
-# tp-integrador
-Trabajo integrador
