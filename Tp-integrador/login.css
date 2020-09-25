@@ -1,0 +1,144 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    background: #616161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    
+    
+    
+}
+.contendor {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.content_form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.content_form h3 {
+    margin-right: 65px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: rgb(44, 43, 43);
+}
+.inputs_login {
+    width: 70%;
+    max-width: 400px;
+   
+}
+.inputs_login p {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputs_login p label{
+    padding-bottom: 5px;
+    margin-left: 10px;
+  
+}
+.inputs_login p input {
+ 
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background: #bed8d6 ;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+
+
+}
+.inputs_login p button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    border: 1px solid;
+    font-family: 'Work Sans', sans-serif;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    background-color:#6c7978;
+    font-size: 15px;
+    font-weight: 400;   
+   
+}  
+ 
+.imagen{
+    visibility: hidden;
+}
+
+.inputs_login p .pass {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 70px;
+    font-size: 15px;
+    color: rgb(66, 69, 71);
+
+}
+
+
+
+@media screen and (min-width:800px){
+    .imagen {
+        visibility: visible;
+        border-radius:15px ;
+        background-image: url(_1017136.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+
+    }
+    .inputs_login {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+
+
+
+}
+@media screen and (min-width: 360px){
+    .content_form h3 {
+        margin-right: 20px;
+    }
+    .inputs_login p .pass{
+        width: 100%;
+    
+    }
+       
+}
+
+        
+        
+    
+ 
+ 
+    
+
+
+    
+  
+       
+
