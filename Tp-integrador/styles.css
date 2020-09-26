@@ -209,27 +209,47 @@ label{
     
 }
 .boton{
-   margin-left:120px;
+   margin-left: 95px;
    margin-top: 20px;
    width: 90px;
    height: 30px;
    background-color: rgb(223, 217, 217); 
-   border-radius: 5px; 
+   border-radius: 5px;
+   font-family: 'Work Sans', sans-serif;
    
 }
 .boton_sesion{
+    color:black; 
     margin-left: 10px;
     background-color: rgb(223, 217, 217); 
     border-radius: 5px; 
-    width: 90px;
+    width: 80px;
     height: 30px;
+    padding: 3px;
+    text-decoration: none;
+    border: 1px solid black ;
+    font-family:'Montserrat', sans-serif; 
+    font-size: 15px;
+    font-weight: 400;
+    
 }
 .boton_registro{
     background-color: rgb(223, 217, 217); 
     border-radius: 5px; 
-    width: 90px;
-    height: 30px;
-    margin-left: 110px;
+    width: 100px;
+    height: 0px;
+    padding: 3px;
+    margin-left: 90px;
+    margin-top: 2px;
+    text-decoration: none;
+    border: 1px solid black ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 400;
+
+    
 }
 
      
@@ -346,7 +366,11 @@ footer{
             height: 100px;
             margin-right: 100px;
     }
-    
+    .contact form .boton .boton_registro .boton_sesion{
+        width: 100%;
+        display: block;
+        
+    }
 }
 
  
