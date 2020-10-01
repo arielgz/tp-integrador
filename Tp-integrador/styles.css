@@ -58,11 +58,12 @@ ul a{
 
 .portada {
     width: 90%;
-    height: 90%;
+    height: 100%;
     margin-left:5%;
-    
-    
 } 
+.portada image{
+    width: 90%;
+}
     
 
 /* Galeria  */
@@ -168,23 +169,31 @@ p{
     padding-top: 20px;
    
 }
+.login .titulo h2 {
+   text-align: center;
+   position: relative;
+   right: 70px;
+
+}
 
 .titulo{
-    text-align: center;
-    margin-right: 190px;
+    
     font-size: 30px;
     font-weight: 500;
     color: rgb(240, 236, 236);
 }
 
-
-.contact form{
-   
+.contact{
+    margin: auto;
+    position: relative;
+    right: 70px;
+}
+.contact p {
     width:100%;
-    height: 400px;
     margin:auto;
-    padding: 10px;
+    padding: 5px;
     outline: none;
+    
 }
 .campo{
    background-color: rgb(223, 217, 217); 
@@ -199,12 +208,13 @@ textarea{
     background-color: rgb(223, 217, 217);
     outline: none;
     border: none;
-    margin-left: 10px;
     margin-top: 10px;
    
 }
-label{
-    margin-left: 15px;
+ .contact p label{
+    position: relative;
+    right: 200px;
+    margin-right: 10px;
     color: rgb(58, 57, 57);
     
 }
@@ -283,12 +293,30 @@ footer{
     color: black;
 
 }
- 
+
+@media screen and (max-width: 360px){
+    .portada img{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        position: relative;
+        top: 40px;
+
+       
+    }
+}
+
+
 
 
 @media screen and (max-width: 360px){
-    .coberturas{
-        margin-right: 50px;
+    .coberturas h2{
+        position: relative;
+        right: 50px;
+        top: 15px;
+        font-size: 15px;
+        text-align: center;
+        
     }
     .box{
         display: block;
@@ -304,8 +332,11 @@ footer{
         margin-left: 20px;
         
     } 
-    .documental{
-        margin-right: 50px;
+    .documental h2{
+        position: relative;
+        right: 50px;
+        top: 15px;
+        font-size: 15px;
         text-align: center;
     }
     .box2{
@@ -326,51 +357,47 @@ footer{
     }  
 
 @media screen and (max-width: 360px){
-    .bio{
-     
-        width: 90%;
+    .bio h2{
+        position: relative;
+        right: 60px;
+        bottom: 15px;
+        font-size: 15px;
+        text-align: center;
+        
 
     }
     
     .texto_bio p {
-        width: 100%;
-       margin-left: -50px;
-       justify-content: center;
+       width: 100%;
+       position: relative;
+       right: 40px;
+       
+      
        
        
         
     }
 }
 @media screen and (max-width:360px){
-    .contact  {
-        width: 30%;
-        height: auto;
-      
-        padding: 10px;
-        outline: none;
-      
+    .contact{
+        width: 100%;
+        margin-right: 10px;
+       
+    }
+    .contact p label {
+        position: relative;
+       right: 80px;
 
     }
-    .contact form .campo {
-        background-color: rgb(223, 217, 217); 
-        border: none;
+    .contact .campo {
+        width: 340px
+    }
+    .contact textarea {
         width: 340px;
-        height: 30px;
-        margin: 10px;
-        margin-right: 90%;
-
+        margin-left: 10px;
     }
-    .login .titulo {
-        text-align: center;
-    }
-
-    textarea {
-            width: 340px;
-            height: 100px;
-            margin-right: 100px;
-    }
-     
-
 }
+
+    
 
  
