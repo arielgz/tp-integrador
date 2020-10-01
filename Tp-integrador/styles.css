@@ -129,7 +129,7 @@ ul a{
 }
 
 .bio{
-    margin-left:80px;
+    margin-left: 80px;
     margin-top: 30px ;
 }
  .bio h2{
@@ -180,7 +180,7 @@ p{
 
 .contact form{
    
-    width:55%;
+    width:100%;
     height: 400px;
     margin:auto;
     padding: 10px;
@@ -295,7 +295,7 @@ footer{
         overflow: hidden;
         width: 100%;
         height: auto ;
-        margin-left: 60px;
+    
         
     }
     .card{
@@ -313,7 +313,7 @@ footer{
         overflow: hidden;
         width: 100%;
         height: auto ;
-        margin-left: 60px;
+     
         
     }
     .card2{
@@ -327,25 +327,28 @@ footer{
 
 @media screen and (max-width: 360px){
     .bio{
-        text-align: center;
-        margin-left: 60px;
+     
         width: 90%;
+
     }
     
-    .texto_bio{
+    .texto_bio p {
         width: 100%;
-        margin-left:10px ;
+       margin-left: -50px;
+       justify-content: center;
+       
+       
         
     }
 }
 @media screen and (max-width:360px){
-    .contact form {
+    .contact  {
         width: 30%;
         height: auto;
-        margin:auto;
+      
         padding: 10px;
         outline: none;
-        margin-right: 90%;
+      
 
     }
     .contact form .campo {
